@@ -1,1 +1,579 @@
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.5">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px '.AppleSystemUIFontMonospaced'; color: #5b6274; -webkit-text-stroke: #5b6274; background-color: #ffffff}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px '.AppleSystemUIFontMonospaced'; color: #a70014; -webkit-text-stroke: #a70014; background-color: #ffffff}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px '.AppleSystemUIFontMonospaced'; color: #ad0018; -webkit-text-stroke: #ad0018; background-color: #ffffff}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px '.AppleSystemUIFontMonospaced'; color: #0f7001; -webkit-text-stroke: #0f7001; background-color: #ffffff}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px '.AppleSystemUIFontMonospaced'; color: #101318; -webkit-text-stroke: #101318; background-color: #ffffff}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px '.AppleSystemUIFontMonospaced'; color: #20242d; -webkit-text-stroke: #20242d; background-color: #ffffff}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px '.AppleSystemUIFontMonospaced'; color: #101318; -webkit-text-stroke: #101318; background-color: #ffffff; min-height: 17.0px}
+    span.s1 {font-kerning: none; color: #20242d; -webkit-text-stroke: 0px #20242d}
+    span.s2 {font-kerning: none}
+    span.s3 {font-kerning: none; color: #ad0018; -webkit-text-stroke: 0px #ad0018}
+    span.s4 {font-kerning: none; color: #0f7001; -webkit-text-stroke: 0px #0f7001}
+    span.s5 {font-kerning: none; color: #a70014; -webkit-text-stroke: 0px #a70014}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!</span><span class="s2">DOCTYPE html</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s1">&lt;</span><span class="s2">html </span><span class="s3">lang</span><span class="s1">="</span><span class="s4">es</span><span class="s1">"&gt;</span></p>
+<p class="p2"><span class="s1">&lt;</span><span class="s2">head</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="s1">&lt;</span><span class="s5">meta </span><span class="s2">charset</span><span class="s1">="</span><span class="s4">UTF-8</span><span class="s1">"</span><span class="s5"> </span><span class="s1">/&gt;</span></p>
+<p class="p4"><span class="s1">&lt;</span><span class="s5">meta </span><span class="s3">name</span><span class="s1">="</span><span class="s2">viewport</span><span class="s1">"</span><span class="s5"> </span><span class="s3">content</span><span class="s1">="</span><span class="s2">width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover</span><span class="s1">"</span><span class="s5"> </span><span class="s1">/&gt;</span></p>
+<p class="p4"><span class="s1">&lt;</span><span class="s5">meta </span><span class="s3">name</span><span class="s1">="</span><span class="s2">theme-color</span><span class="s1">"</span><span class="s5"> </span><span class="s3">content</span><span class="s1">="</span><span class="s2">#1d4ed8</span><span class="s1">"</span><span class="s5"> </span><span class="s1">/&gt;</span></p>
+<p class="p4"><span class="s1">&lt;</span><span class="s5">meta </span><span class="s3">name</span><span class="s1">="</span><span class="s2">apple-mobile-web-app-capable</span><span class="s1">"</span><span class="s5"> </span><span class="s3">content</span><span class="s1">="</span><span class="s2">yes</span><span class="s1">"</span><span class="s5"> </span><span class="s1">/&gt;</span></p>
+<p class="p4"><span class="s1">&lt;</span><span class="s5">meta </span><span class="s3">name</span><span class="s1">="</span><span class="s2">apple-mobile-web-app-status-bar-style</span><span class="s1">"</span><span class="s5"> </span><span class="s3">content</span><span class="s1">="</span><span class="s2">black-translucent</span><span class="s1">"</span><span class="s5"> </span><span class="s1">/&gt;</span></p>
+<p class="p4"><span class="s1">&lt;</span><span class="s5">meta </span><span class="s3">name</span><span class="s1">="</span><span class="s2">apple-mobile-web-app-title</span><span class="s1">"</span><span class="s5"> </span><span class="s3">content</span><span class="s1">="</span><span class="s2">Ritcher</span><span class="s1">"</span><span class="s5"> </span><span class="s1">/&gt;</span></p>
+<p class="p4"><span class="s1">&lt;</span><span class="s5">meta </span><span class="s3">name</span><span class="s1">="</span><span class="s2">mobile-web-app-capable</span><span class="s1">"</span><span class="s5"> </span><span class="s3">content</span><span class="s1">="</span><span class="s2">yes</span><span class="s1">"</span><span class="s5"> </span><span class="s1">/&gt;</span></p>
+<p class="p5"><span class="s1">&lt;</span><span class="s5">title</span><span class="s1">&gt;</span><span class="s2">Ritcher · Cambio</span><span class="s1">&lt;/</span><span class="s5">title</span><span class="s1">&gt;</span></p>
+<p class="p4"><span class="s1">&lt;</span><span class="s5">link </span><span class="s3">rel</span><span class="s1">="</span><span class="s2">icon</span><span class="s1">"</span><span class="s5"> </span><span class="s3">href</span><span class="s1">="</span><span class="s2">data:image/svg+xml,%3Csvg xmlns=</span><span class="s1">'</span><span class="s2">http://www.w3.org/2000/svg</span><span class="s1">'</span><span class="s2"> viewBox=</span><span class="s1">'</span><span class="s2">0 0 100 100</span><span class="s1">'</span><span class="s2">%3E%3Crect width=</span><span class="s1">'</span><span class="s2">100</span><span class="s1">'</span><span class="s2"> height=</span><span class="s1">'</span><span class="s2">100</span><span class="s1">'</span><span class="s2"> rx=</span><span class="s1">'</span><span class="s2">20</span><span class="s1">'</span><span class="s2"> fill=</span><span class="s1">'</span><span class="s2">%23facc15</span><span class="s1">'</span><span class="s2">/%3E%3Ctext x=</span><span class="s1">'</span><span class="s2">50</span><span class="s1">'</span><span class="s2"> y=</span><span class="s1">'</span><span class="s2">72</span><span class="s1">'</span><span class="s2"> font-size=</span><span class="s1">'</span><span class="s2">60</span><span class="s1">'</span><span class="s2"> text-anchor=</span><span class="s1">'</span><span class="s2">middle</span><span class="s1">'</span><span class="s2"> font-family=</span><span class="s1">'</span><span class="s2">system-ui</span><span class="s1">'</span><span class="s2"> font-weight=</span><span class="s1">'</span><span class="s2">900</span><span class="s1">'</span><span class="s2">%3E%E2%82%AC%3C/text%3E%3C/svg%3E</span><span class="s1">"</span><span class="s5"> </span><span class="s1">/&gt;</span></p>
+<p class="p4"><span class="s1">&lt;</span><span class="s5">link </span><span class="s3">rel</span><span class="s1">="</span><span class="s2">apple-touch-icon</span><span class="s1">"</span><span class="s5"> </span><span class="s3">href</span><span class="s1">="</span><span class="s2">data:image/svg+xml,%3Csvg xmlns=</span><span class="s1">'</span><span class="s2">http://www.w3.org/2000/svg</span><span class="s1">'</span><span class="s2"> viewBox=</span><span class="s1">'</span><span class="s2">0 0 100 100</span><span class="s1">'</span><span class="s2">%3E%3Crect width=</span><span class="s1">'</span><span class="s2">100</span><span class="s1">'</span><span class="s2"> height=</span><span class="s1">'</span><span class="s2">100</span><span class="s1">'</span><span class="s2"> rx=</span><span class="s1">'</span><span class="s2">20</span><span class="s1">'</span><span class="s2"> fill=</span><span class="s1">'</span><span class="s2">%23facc15</span><span class="s1">'</span><span class="s2">/%3E%3Ctext x=</span><span class="s1">'</span><span class="s2">50</span><span class="s1">'</span><span class="s2"> y=</span><span class="s1">'</span><span class="s2">72</span><span class="s1">'</span><span class="s2"> font-size=</span><span class="s1">'</span><span class="s2">60</span><span class="s1">'</span><span class="s2"> text-anchor=</span><span class="s1">'</span><span class="s2">middle</span><span class="s1">'</span><span class="s2"> font-family=</span><span class="s1">'</span><span class="s2">system-ui</span><span class="s1">'</span><span class="s2"> font-weight=</span><span class="s1">'</span><span class="s2">900</span><span class="s1">'</span><span class="s2">%3E%E2%82%AC%3C/text%3E%3C/svg%3E</span><span class="s1">"</span><span class="s5"> </span><span class="s1">/&gt;</span></p>
+<p class="p4"><span class="s1">&lt;</span><span class="s5">script </span><span class="s3">src</span><span class="s1">="</span><span class="s2">https://cdn.tailwindcss.com</span><span class="s1">"&gt;&lt;/</span><span class="s5">script</span><span class="s1">&gt;</span></p>
+<p class="p4"><span class="s1">&lt;</span><span class="s5">script </span><span class="s3">crossorigin</span><span class="s5"> </span><span class="s3">src</span><span class="s1">="</span><span class="s2">https://unpkg.com/react@18/umd/react.production.min.js</span><span class="s1">"&gt;&lt;/</span><span class="s5">script</span><span class="s1">&gt;</span></p>
+<p class="p4"><span class="s1">&lt;</span><span class="s5">script </span><span class="s3">crossorigin</span><span class="s5"> </span><span class="s3">src</span><span class="s1">="</span><span class="s2">https://unpkg.com/react-dom@18/umd/react-dom.production.min.js</span><span class="s1">"&gt;&lt;/</span><span class="s5">script</span><span class="s1">&gt;</span></p>
+<p class="p4"><span class="s1">&lt;</span><span class="s5">script </span><span class="s3">src</span><span class="s1">="</span><span class="s2">https://unpkg.com/@babel/standalone/babel.min.js</span><span class="s1">"&gt;&lt;/</span><span class="s5">script</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s1">&lt;</span><span class="s2">style</span><span class="s1">&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>html, body {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>margin: 0;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>padding: 0;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>overscroll-behavior-y: none;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>-webkit-tap-highlight-color: transparent;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>body {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>background: linear-gradient(135deg, #f1f5f9 0%, #dbeafe 50%, #f1f5f9 100%);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>min-height: 100vh;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>min-height: 100dvh;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>padding-top: env(safe-area-inset-top);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>padding-bottom: env(safe-area-inset-bottom);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>padding-left: env(safe-area-inset-left);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>padding-right: env(safe-area-inset-right);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>input[type="number"], input[type="text"] {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>font-size: 16px !important;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>input.big-input {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>font-size: 28px !important;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>input[type=number]::-webkit-inner-spin-button,</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>input[type=number]::-webkit-outer-spin-button {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>-webkit-appearance: none;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>margin: 0;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>input[type=number] {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>-moz-appearance: textfield;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>button:active {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>transform: scale(0.97);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>transition: transform 0.05s;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>input[type=range] {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>height: 32px;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>input[type=range]::-webkit-slider-thumb {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>-webkit-appearance: none;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>width: 28px;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>height: 28px;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>border-radius: 50%;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>background: #1d4ed8;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>border: 3px solid #000;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>cursor: pointer;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>input[type=range]::-moz-range-thumb {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>width: 28px;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>height: 28px;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>border-radius: 50%;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>background: #1d4ed8;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>border: 3px solid #000;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>cursor: pointer;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>.icon-svg {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>width: 1em;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>height: 1em;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>stroke: currentColor;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>stroke-width: 2.2;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>stroke-linecap: round;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>stroke-linejoin: round;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>fill: none;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>display: inline-block;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>vertical-align: middle;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1">&lt;/</span><span class="s2">style</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/</span><span class="s2">head</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s1">&lt;</span><span class="s2">body</span><span class="s1">&gt;</span></p>
+<p class="p6"><span class="s2">&lt;</span><span class="s5">div </span><span class="s3">id</span><span class="s2">="</span><span class="s4">root</span><span class="s2">"&gt;&lt;/</span><span class="s5">div</span><span class="s2">&gt;</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p3"><span class="s1">&lt;</span><span class="s5">script </span><span class="s2">type</span><span class="s1">="</span><span class="s4">text/babel</span><span class="s1">"</span><span class="s5"> </span><span class="s2">data-presets</span><span class="s1">="</span><span class="s4">react</span><span class="s1">"&gt;</span></p>
+<p class="p5"><span class="s2">const { useState, useEffect } = React;</span></p>
+<p class="p5"><span class="s2">const e = React.createElement;</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2">// Icono genérico vía dangerouslySetInnerHTML (evita parsear SVG denso como JSX)</span></p>
+<p class="p5"><span class="s2">function SvgIcon({ paths, size, className, color }) {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const sz = size || 16;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const cn = "icon-svg " + (className || "");</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const style = { width: sz, height: sz, color: color };</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>return (</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>&lt;svg</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>xmlns="http://www.w3.org/2000/svg"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>viewBox="0 0 24 24"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>className={cn}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>style={style}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>dangerouslySetInnerHTML={{ __html: paths }}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>/&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>);</span></p>
+<p class="p5"><span class="s2">}</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2">const ICONS = {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>trending: '&lt;polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/&gt;&lt;polyline points="16 7 22 7 22 13"/&gt;',</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>calculator: '&lt;rect width="16" height="20" x="4" y="2" rx="2"/&gt;&lt;line x1="8" x2="16" y1="6" y2="6"/&gt;&lt;line x1="16" x2="16" y1="14" y2="18"/&gt;&lt;circle cx="8" cy="10" r="0.5" fill="currentColor"/&gt;&lt;circle cx="12" cy="10" r="0.5" fill="currentColor"/&gt;&lt;circle cx="16" cy="10" r="0.5" fill="currentColor"/&gt;&lt;circle cx="8" cy="14" r="0.5" fill="currentColor"/&gt;&lt;circle cx="12" cy="14" r="0.5" fill="currentColor"/&gt;&lt;circle cx="8" cy="18" r="0.5" fill="currentColor"/&gt;&lt;circle cx="12" cy="18" r="0.5" fill="currentColor"/&gt;',</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>edit: '&lt;path d="M12 20h9"/&gt;&lt;path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4z"/&gt;',</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>check: '&lt;polyline points="20 6 9 17 4 12"/&gt;',</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>external: '&lt;path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/&gt;&lt;polyline points="15 3 21 3 21 9"/&gt;&lt;line x1="10" x2="21" y1="14" y2="3"/&gt;',</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>save: '&lt;path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/&gt;&lt;polyline points="17 21 17 13 7 13 7 21"/&gt;&lt;polyline points="7 3 7 8 15 8"/&gt;',</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>close: '&lt;line x1="18" x2="6" y1="6" y2="18"/&gt;&lt;line x1="6" x2="18" y1="6" y2="18"/&gt;',</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>pencil: '&lt;path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5z"/&gt;'</span></p>
+<p class="p5"><span class="s2">};</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2">const CURRENCIES = [</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>{ code: 'GBP', name: 'Libra', flag: '🇬🇧' },</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>{ code: 'USD', name: 'Dólar', flag: '🇺🇸' },</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>{ code: 'CHF', name: 'Franco', flag: '🇨🇭' },</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>{ code: 'NOK', name: 'C. Noruega', flag: '🇳🇴' },</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>{ code: 'SEK', name: 'C. Sueca', flag: '🇸🇪' },</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>{ code: 'DKK', name: 'C. Danesa', flag: '🇩🇰' },</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>{ code: 'PLN', name: 'Zloty', flag: '🇵🇱' },</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>{ code: 'MAD', name: 'Dírham', flag: '🇲🇦' }</span></p>
+<p class="p5"><span class="s2">];</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2">const DEFAULT_RATES = {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>GBP: 0.8520,</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>USD: 1.0850,</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>CHF: 0.9450,</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>NOK: 11.6500,</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>SEK: 11.2800,</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>DKK: 7.4580,</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>PLN: 4.3200,</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>MAD: 10.8500</span></p>
+<p class="p5"><span class="s2">};</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2">const STORAGE_KEY = 'ritcher_ecb_rates';</span></p>
+<p class="p5"><span class="s2">const BCE_URL = 'https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html';</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2">function CurrencyConverter() {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const [rates, setRates] = useState(DEFAULT_RATES);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const [lastUpdate, setLastUpdate] = useState(null);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const [selectedCurrency, setSelectedCurrency] = useState('GBP');</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const [foreignAmount, setForeignAmount] = useState(100);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const [margin, setMargin] = useState(5);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const [customRate, setCustomRate] = useState(null);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const [editingRate, setEditingRate] = useState(false);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const [tempRate, setTempRate] = useState('');</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const [editingRates, setEditingRates] = useState(false);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const [draftRates, setDraftRates] = useState(DEFAULT_RATES);</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>useEffect(function () {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>try {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>const saved = localStorage.getItem(STORAGE_KEY);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>if (saved) {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>const data = JSON.parse(saved);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>setRates(data.rates);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>setLastUpdate(data.lastUpdate);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>setDraftRates(data.rates);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>} catch (err) {}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}, []);</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>useEffect(function () {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>setCustomRate(null);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>setEditingRate(false);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}, [selectedCurrency, margin]);</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const eurToForeign = rates[selectedCurrency] || 0;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const officialRateForeignToEur = eurToForeign &gt; 0 ? 1 / eurToForeign : 0;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const sellingRateForeignToEur = customRate !== null</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>? customRate</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>: officialRateForeignToEur * (1 - margin / 100);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const officialEurAmount = foreignAmount * officialRateForeignToEur;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const eurToGive = foreignAmount * sellingRateForeignToEur;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const profitEur = officialEurAmount - eurToGive;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const effectiveMargin = officialRateForeignToEur &gt; 0</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>? ((1 - sellingRateForeignToEur / officialRateForeignToEur) * 100)</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>: 0;</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const currentCurrency = CURRENCIES.find(function (c) { return c.code === selectedCurrency; });</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>function formatNumber(num, decimals) {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>const d = decimals == null ? 2 : decimals;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>return num.toLocaleString('es-ES', { minimumFractionDigits: d, maximumFractionDigits: d });</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>function formatDate(isoString) {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>if (!isoString) return 'Sin actualizar';</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>const d = new Date(isoString);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>return d.toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' });</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>function daysSinceUpdate() {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>if (!lastUpdate) return null;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>return Math.floor((Date.now() - new Date(lastUpdate).getTime()) / 86400000);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>function handleEditRate() {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>setTempRate(sellingRateForeignToEur.toFixed(4));</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>setEditingRate(true);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>function handleSaveRate() {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>const r = parseFloat(tempRate);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>if (!isNaN(r) &amp;&amp; r &gt; 0) setCustomRate(r);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>setEditingRate(false);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>function resetCustomRate() { setCustomRate(null); }</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>function startEditingRates() {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>setDraftRates(Object.assign({}, rates));</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>setEditingRates(true);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>function cancelEditingRates() {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>setDraftRates(Object.assign({}, rates));</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>setEditingRates(false);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>function saveRates() {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>const newLastUpdate = new Date().toISOString();</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>try {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>localStorage.setItem(STORAGE_KEY, JSON.stringify({ rates: draftRates, lastUpdate: newLastUpdate }));</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>setRates(Object.assign({}, draftRates));</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>setLastUpdate(newLastUpdate);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>setEditingRates(false);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>} catch (err) {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>alert('Error al guardar las tasas. Intenta de nuevo.');</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>function updateDraftRate(code, value) {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>const next = Object.assign({}, draftRates);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>next[code] = parseFloat(value) || 0;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>setDraftRates(next);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const days = daysSinceUpdate();</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>const stale = days !== null &amp;&amp; days &gt;= 2;</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>return (</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>&lt;div className="min-h-screen p-3 sm:p-4 md:p-6"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>&lt;div className="max-w-3xl mx-auto space-y-3 sm:space-y-4"&gt;</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>{/* HEADER */}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>&lt;div className="bg-white rounded-2xl shadow-md border-2 border-black p-4 sm:p-6"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;div className="flex items-center justify-between gap-2"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;div className="flex items-center gap-2.5 min-w-0"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;div className="bg-yellow-400 p-2 rounded-xl border-2 border-black shrink-0 text-black text-xl"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;SvgIcon paths={ICONS.calculator} size={22} /&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;div className="min-w-0"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;h1 className="text-base sm:text-xl md:text-2xl font-black text-black tracking-tight leading-tight"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>Calculadora de Cambio</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;/h1&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;p className="text-xs sm:text-sm font-bold text-blue-700"&gt;Ritcher&lt;/p&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;button</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>onClick={startEditingRates}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>className="flex items-center gap-1.5 px-3 py-2 bg-blue-700 active:bg-blue-800 text-white rounded-lg border-2 border-black font-bold shrink-0 min-h-[44px]"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;SvgIcon paths={ICONS.pencil} size={16} /&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;span className="text-xs sm:text-sm"&gt;Tasas BCE&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;/button&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;div className={"flex items-center justify-between mt-3 flex-wrap gap-2 p-2 rounded-lg " + (stale ? "bg-yellow-100 border border-yellow-400" : "")}&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;p className="text-xs text-slate-700 font-medium leading-tight"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;span className="block sm:inline"&gt;Tasas BCE: &lt;span className="font-black text-black"&gt;{formatDate(lastUpdate)}&lt;/span&gt;&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>{stale ? &lt;span className="block sm:inline sm:ml-2 font-bold text-yellow-900"&gt;⚠ Recomendable actualizar&lt;/span&gt; : null}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;/p&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>{/* PANEL DE EDICIÓN DE TASAS */}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>{editingRates ? (</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;div className="bg-white rounded-2xl shadow-lg border-2 border-blue-700 p-4 sm:p-6"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;div className="flex items-center justify-between mb-3 gap-2"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;h2 className="text-base sm:text-lg font-black text-black uppercase tracking-tight"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>Actualizar tasas BCE</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;/h2&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;a</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>href={BCE_URL}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>target="_blank"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>rel="noopener noreferrer"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>className="text-xs font-bold text-blue-700 active:text-blue-900 flex items-center gap-1 px-2 py-1.5 bg-blue-50 rounded border border-blue-200 min-h-[36px]"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;span&gt;Abrir BCE&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;SvgIcon paths={ICONS.external} size={12} /&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;/a&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;p className="text-xs sm:text-sm text-slate-600 mb-3"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>Cuánto equivale a &lt;span className="font-bold"&gt;1 €&lt;/span&gt; según el BCE.</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;/p&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;div className="space-y-2 mb-4"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>{CURRENCIES.map(function (c) {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>return (</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>&lt;div key={c.code} className="flex items-center gap-2 p-2.5 bg-slate-50 rounded-xl border border-slate-200"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>&lt;span className="text-xl"&gt;{c.flag}&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>&lt;div className="flex-1 min-w-0"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                      </span>&lt;div className="font-black text-sm text-black"&gt;{c.code}&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                      </span>&lt;div className="text-xs text-slate-500 truncate"&gt;{c.name}&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>&lt;div className="flex items-center gap-1 shrink-0"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                      </span>&lt;span className="text-xs text-slate-500 font-bold"&gt;1 € =&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                      </span>&lt;input</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                        </span>type="number"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                        </span>step="0.0001"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                        </span>inputMode="decimal"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                        </span>value={draftRates[c.code] || ''}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                        </span>onChange={function (ev) { updateDraftRate(c.code, ev.target.value); }}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                        </span>onFocus={function (ev) { ev.target.select(); }}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                        </span>className="w-24 px-2 py-2 font-black text-black border-2 border-black rounded focus:border-blue-700 focus:outline-none focus:ring-2 focus:ring-yellow-400"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                      </span>/&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>})}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;div className="flex gap-2"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;button</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>onClick={cancelEditingRates}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>className="flex-1 flex items-center justify-center gap-2 px-4 py-3 bg-white active:bg-slate-100 text-black rounded-lg border-2 border-black font-bold min-h-[48px]"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;SvgIcon paths={ICONS.close} size={16} /&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;span className="text-sm"&gt;Cancelar&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;/button&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;button</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>onClick={saveRates}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>className="flex-1 flex items-center justify-center gap-2 px-4 py-3 bg-yellow-400 active:bg-yellow-500 text-black rounded-lg border-2 border-black font-bold min-h-[48px]"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;SvgIcon paths={ICONS.save} size={16} /&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;span className="text-sm"&gt;Guardar&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;/button&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>) : null}</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>{/* SELECTOR DE MONEDA */}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>&lt;div className="bg-white rounded-2xl shadow-md border-2 border-black p-4 sm:p-6"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;label className="text-xs sm:text-sm font-black text-black uppercase tracking-wide mb-3 block"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>Moneda del cliente</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;/label&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;div className="grid grid-cols-4 gap-1.5 sm:gap-2"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>{CURRENCIES.map(function (c) {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>const active = selectedCurrency === c.code;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>const base = "p-2 sm:p-3 rounded-xl border-2 transition text-center min-h-[64px] flex flex-col items-center justify-center ";</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>const cls = base + (active ? "border-black bg-yellow-400 shadow-md" : "border-slate-300 bg-white active:border-blue-700");</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>return (</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;button key={c.code} onClick={function () { setSelectedCurrency(c.code); }} className={cls}&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>&lt;span className="text-2xl leading-none"&gt;{c.flag}&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>&lt;div className="font-black text-black text-xs sm:text-sm mt-1"&gt;{c.code}&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;/button&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>})}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>{/* IMPORTE */}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>&lt;div className="bg-white rounded-2xl shadow-md border-2 border-black p-4 sm:p-6"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;label className="text-xs sm:text-sm font-black text-black uppercase tracking-wide mb-3 block"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>{selectedCurrency} que entrega el cliente</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;/label&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;div className="relative"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;span className="absolute left-3 top-1/2 -translate-y-1/2 text-2xl sm:text-3xl"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>{currentCurrency ? currentCurrency.flag : ''}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;input</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>type="number"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>value={foreignAmount}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>onChange={function (ev) { setForeignAmount(parseFloat(ev.target.value) || 0); }}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>onFocus={function (ev) { ev.target.select(); }}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>step="0.01"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>min="0"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>inputMode="decimal"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>className="big-input w-full pl-14 pr-3 py-4 font-black text-black border-2 border-black rounded-xl focus:border-blue-700 focus:outline-none focus:ring-2 focus:ring-yellow-400"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>/&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;div className="grid grid-cols-6 gap-1.5 mt-3"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>{[10, 25, 50, 100, 250, 500].map(function (v) {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>return (</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;button</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>key={v}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>onClick={function () { setForeignAmount(v); }}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>className="px-1 py-2.5 text-xs font-bold bg-black active:bg-blue-700 rounded-lg text-white min-h-[40px]"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>{v}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;/button&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>})}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>{/* MARGEN */}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>&lt;div className="bg-white rounded-2xl shadow-md border-2 border-black p-4 sm:p-6"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;div className="flex items-center justify-between mb-3"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;label className="text-xs sm:text-sm font-black text-black uppercase tracking-wide"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>Tu margen</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;/label&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;span className="text-2xl sm:text-3xl font-black text-blue-700"&gt;{margin}%&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;input</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>type="range"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>min="0"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>max="20"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>step="0.5"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>value={margin}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>onChange={function (ev) { setMargin(parseFloat(ev.target.value)); }}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>className="w-full accent-blue-700"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>/&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;div className="flex justify-between text-xs text-slate-500 font-bold mt-1 mb-3"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;span&gt;0%&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;span&gt;10%&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;span&gt;20%&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;div className="grid grid-cols-6 gap-1.5"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>{[0, 3, 5, 8, 10, 15].map(function (v) {</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>const active = margin === v &amp;&amp; customRate === null;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>const base = "px-1 py-2.5 text-xs font-bold rounded-lg border-2 min-h-[40px] ";</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>const cls = base + (active ? "bg-yellow-400 text-black border-black" : "bg-black text-white border-black active:bg-blue-700");</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>return (</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;button key={v} onClick={function () { setMargin(v); }} className={cls}&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>{v}%</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;/button&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>);</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>})}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>{/* RESULTADO HERO */}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>&lt;div className="bg-black rounded-2xl p-5 sm:p-6 text-white border-2 border-yellow-400 relative overflow-hidden shadow-xl"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;div className="absolute top-0 right-0 w-40 h-40 bg-yellow-400 opacity-10 rounded-full -mr-20 -mt-20"&gt;&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;div className="text-[10px] sm:text-xs font-black text-yellow-400 uppercase tracking-widest mb-2"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>Le das al cliente</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;div className="flex items-baseline gap-2 flex-wrap"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;span className="text-5xl sm:text-6xl md:text-7xl font-black text-yellow-400 leading-none"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>{formatNumber(eurToGive)}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;span className="text-2xl sm:text-3xl text-white font-black"&gt;€&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;div className="text-xs sm:text-sm text-slate-300 mt-3 font-medium"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>Por &lt;span className="font-black text-white"&gt;{formatNumber(foreignAmount)} {selectedCurrency} {currentCurrency ? currentCurrency.flag : ''}&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>{/* DETALLE */}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>&lt;div className="bg-white rounded-2xl shadow-md border-2 border-black p-4 sm:p-6"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;div className="flex items-center gap-2 mb-3"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;div className="bg-blue-700 p-1.5 rounded-lg text-yellow-400"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;SvgIcon paths={ICONS.trending} size={16} /&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;h2 className="text-sm sm:text-lg font-black text-black uppercase tracking-tight"&gt;Detalle&lt;/h2&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;div className="space-y-2 mb-3"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;div className="bg-slate-100 rounded-xl p-3 border-2 border-slate-300"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;div className="text-[10px] sm:text-xs font-black text-slate-600 uppercase tracking-wide mb-1"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>Tasa oficial BCE</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;div className="text-base sm:text-lg font-black text-black"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>1 {selectedCurrency} = {formatNumber(officialRateForeignToEur, 4)} €</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;div className="bg-blue-700 rounded-xl p-3 border-2 border-black"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;div className="flex items-center justify-between mb-1"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;div className="text-[10px] sm:text-xs font-black text-yellow-400 uppercase tracking-wide"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>Tu tasa {customRate !== null ? '(personal)' : ''}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>{!editingRate ? (</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>&lt;button</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>onClick={handleEditRate}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>className="p-1.5 active:bg-blue-800 rounded min-h-[32px] min-w-[32px] flex items-center justify-center text-yellow-400"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>title="Editar tasa"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>&lt;SvgIcon paths={ICONS.edit} size={14} /&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>&lt;/button&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>) : (</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>&lt;button</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>onClick={handleSaveRate}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>className="p-1.5 active:bg-blue-800 rounded min-h-[32px] min-w-[32px] flex items-center justify-center text-yellow-400"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>title="Guardar"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>&lt;SvgIcon paths={ICONS.check} size={14} /&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>&lt;/button&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>)}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>{editingRate ? (</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;div className="flex items-center gap-2"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>&lt;span className="text-sm text-white font-bold whitespace-nowrap"&gt;1 {selectedCurrency} =&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>&lt;input</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>type="number"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>value={tempRate}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>inputMode="decimal"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>onChange={function (ev) { setTempRate(ev.target.value); }}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>onKeyDown={function (ev) { if (ev.key === 'Enter') handleSaveRate(); }}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>onFocus={function (ev) { ev.target.select(); }}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>step="0.0001"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>autoFocus</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>className="flex-1 min-w-0 px-2 py-1.5 font-black border-2 border-yellow-400 rounded bg-white text-black focus:outline-none"</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>/&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>&lt;span className="text-sm font-black text-white"&gt;€&lt;/span&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>) : (</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;div className="text-base sm:text-lg font-black text-white"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>1 {selectedCurrency} = {formatNumber(sellingRateForeignToEur, 4)} €</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>)}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>{customRate !== null ? (</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;button onClick={resetCustomRate} className="text-xs text-yellow-400 active:underline mt-1 font-bold"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>← Volver al margen automático</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>&lt;/button&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>) : null}</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;div className="grid grid-cols-3 gap-2"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;div className="bg-slate-100 rounded-xl p-2 border-2 border-slate-300"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;div className="text-[9px] sm:text-xs text-slate-600 font-black uppercase mb-0.5 leading-tight"&gt;Valor BCE&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;div className="text-sm sm:text-base font-black text-black leading-tight"&gt;{formatNumber(officialEurAmount)} €&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;div className="bg-blue-100 rounded-xl p-2 border-2 border-blue-700"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;div className="text-[9px] sm:text-xs text-blue-800 font-black uppercase mb-0.5 leading-tight"&gt;Margen&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;div className="text-sm sm:text-base font-black text-blue-900 leading-tight"&gt;{formatNumber(effectiveMargin, 1)}%&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;div className="bg-yellow-400 rounded-xl p-2 border-2 border-black"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;div className="text-[9px] sm:text-xs text-black font-black uppercase mb-0.5 leading-tight"&gt;Beneficio&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>&lt;div className="text-sm sm:text-base font-black text-black leading-tight"&gt;+{formatNumber(profitEur)} €&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>&lt;div className="text-center text-[10px] sm:text-xs text-slate-600 px-4 font-medium pb-2"&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>Tasas oficiales del Banco Central Europeo · Ritcher</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span>);</span></p>
+<p class="p5"><span class="s2">}</span></p>
+<p class="p7"><span class="s2"></span><br></p>
+<p class="p5"><span class="s2">const root = ReactDOM.createRoot(document.getElementById('root'));</span></p>
+<p class="p5"><span class="s2">root.render(&lt;CurrencyConverter /&gt;);</span></p>
+<p class="p2"><span class="s1">&lt;/</span><span class="s2">script</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/</span><span class="s2">body</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/</span><span class="s2">html</span><span class="s1">&gt;</span></p>
+</body>
+</html>
